@@ -26,7 +26,7 @@ public class SikuliPractice {
 		  
 		  Pattern pw = new Pattern("D:\\fb\\password.png");
 		  screen.wait(pw,10);
-		  screen.type(pw,"Samartha@1002");
+		  screen.type(pw,"Abcd@1234");
 
 		  Pattern login = new Pattern("D:\\fb\\login.png");
 		  screen.wait(login,10);
